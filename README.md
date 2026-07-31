@@ -21,11 +21,13 @@ This project follows the Lean Six Sigma DMAIC cycle:
 * Data Collection: Compiled historical and operational data, including:
   * Coke parameters:  Fixed Carbon,  Ash, Moisture, Granulometry.
   * Slag parameters:  Cu, Viscosity indicators, Temperature, Basicity ratio (CaO/SiO2).
+  
 
 ### 3. Analyze (A) (Python EDA & Statistical Testing)
 * Utilized Python (pandas, scipy.stats, matplotlib) to perform Exploratory Data Analysis (EDA).
 * Key Insights: Differentiated between chemical losses (dissolved Cu2O due to insufficient reducing conditions) and mechanical entrainment (copper droplets trapped due to high slag viscosity caused by excessive coke ash).
 * Correlation: Conducted multiple linear regression to isolate the most impactful variables on slag Cu content.
+  ![Slag Analysis SPC Charts](https://github.com/user-attachments/assets/2977c367-2041-4634-9bfb-b52da8f07cc4)
 
 ### 4. Improve (I)
 * Process Optimization: Calculated dynamic flux addition models to adjust for varying coke ash content, maintaining optimal slag fluidity.
