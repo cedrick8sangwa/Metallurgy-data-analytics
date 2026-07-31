@@ -15,7 +15,7 @@ This project follows the Lean Six Sigma DMAIC cycle:
 
 ### 1. Define (D)
 * Problem: Increase in copper (Cu) percentage in the discard slag due to variable coke quality (reducing agent & heat source).
-* Objective: Reduce Cu losses in slag from > 6.8% to < 3.1% and stabilize the smelting process.
+* Objective: Reduce Cu losses in slag from > 1.8% to < 0.8% and stabilize the smelting process.
 
 ### 2. Measure (M)
 * Data Collection: Compiled historical and operational data, including:
